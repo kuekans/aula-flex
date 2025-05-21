@@ -1,0 +1,33 @@
+body{ /*body é o corpo do site*/
+    background-color: #fcc9c9;
+}
+
+.container{ /*esse aqui muda a parte *** atrás, se eu mudar o tamanho vai mudar atrás.*/
+    background-color: #ffffff;
+    display: flex; /*exibição*/
+    justify-content: space-between;
+}
+
+p{ /*esse está mudando os blocos ****, e tbm as letras. */
+    background-color: #4fc44f;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+button{ /*botao adicionado dentro do container*/
+    background-color: #5eeb51;
+    display: flex;
+    padding: 2rem; /*preenchimento*/
+    margin: 1rem; /*mergem, separa das bordas: esta dentro do container e separou das bordas dele*/
+    box-shadow: 2px 2px 2px #ff0000;
+    animation-name: anima;
+    animation-duration: 10000000000000000000000s;
+}
+
+@keyframes anima {
+    0% {background-color: #ff0000;}
+    25% {background-color: #00ffff;}
+    50% {background-color: #ffd000;}
+    75% {background-color: #8b008b;}
+    100% {background-color: #556b2f;}
+}
