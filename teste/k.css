@@ -21,7 +21,7 @@ button{ /*botao adicionado dentro do container*/
     margin: 1rem; /*mergem, separa das bordas: esta dentro do container e separou das bordas dele*/
     box-shadow: 2px 2px 2px #ff0000;
     animation-name: anima;
-    animation-duration: 10000000000000000000000s;
+    animation-duration: 4s;
 }
 
 @keyframes anima {
