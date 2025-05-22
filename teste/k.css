@@ -22,6 +22,7 @@ button{ /*botao adicionado dentro do container*/
     box-shadow: 2px 2px 2px #ff0000;
     animation-name: anima;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes anima {
